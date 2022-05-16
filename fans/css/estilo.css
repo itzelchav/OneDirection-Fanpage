@@ -1,0 +1,92 @@
+@font-face{/*1*/
+    font-family: OneDirection;
+    src: url(/fonts/OneDirection.ttf);
+
+}
+
+
+
+
+body {
+    width: 1200px; height: 1000px;
+    background-color: rgb(99, 103, 166);
+    margin: auto;
+    float: center;
+    padding-left: 18%;
+    
+}
+
+header {
+    width: 900px; 
+    height: 130px;
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    
+}
+
+#Principal {
+    font-size: 100px;
+    color: rgb(99, 103, 166);
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.1em rgb(43, 26, 2);
+    font-family: OneDirection;
+    
+}
+
+.identico {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 900px; 
+    height: 150px;
+    background-color: rgb(248, 188, 188);
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+#nav {
+    font-size: 16px;
+}
+
+main {
+    width: 900px;
+    height: 100px;
+    background-color: rgb(242, 242, 242);
+    font-size: 20px;
+}
+section {
+    width: 900px;
+    height: 300px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.section {
+    width: 900px;
+    background-color: rgb(231, 159, 138);
+    color: rgb(33, 102, 102);
+}
+
+
+
+.hijo {
+    font-size: 25px;
+
+}
+#Barra {
+    width: 900px;
+    background-color: rgb(255, 235, 205);
+    
+}
+
+
+
+footer {
+    width: 900px;
+    height: 250px;
+    background-color: rgb(233, 141, 168); 
+    font-size: 25px;
+    text-align: center;
+    background-image: url(/fans/images/banner.jpg);
+    color: rgb(0, 0, 0);
+}

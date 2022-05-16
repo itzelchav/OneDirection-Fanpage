@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Formulario Club de fans Cd. Juarez</title>
+        <link href="estilo.css" rel="stylesheet" />
+    </head>
+    <body>
+
+         <h2>Formulario Club de fans Cd. Ju&aacute;rez</h2>
+
+        <form class="clientes" action="guardar.php" method="POST" id="contact_form" runat="server" enctype="multipart/form-data">
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" maxlength="30"required ><br><br>
+
+            <label for="Apellidos">Apellidos:</label><br>
+            <input type="text" id="Apellidos" name="Apellidos" maxlength="60"required ><br><br>
+
+            <label for="Calle">Calle:</label><br>
+            <input type="text" id="Calle" name="Calle" maxlength="60"required ><br><br>
+            
+            
+            
+            <h4>Colonia:</h4>
+            <select name="Colonia"><br>
+                <option value="">------</option>
+                <option value="Colonia">Aztecas</option>
+                <option value="Colonia">Fidel Velazquez</option>
+                <option value="Colonia">Anapra</option>
+                <option value="Colonia">Riveras del Bravo 8 secci&oacute;n</option>
+                <option value="Colonia">Gomez Mor&iacute;n</option>
+                <option value="Colonia">Campestre</option>
+                <option value="Colonia">San Angel</option>
+                <option value="Colonia">Insurgentes</option>
+                <option value="Colonia">Infonavit Casas Grandes</option>
+                <option value="Colonia">Francisco Sarabia</option>
+            </select><br><br>
+            
+            <label for="Cp">Cp:</label><br>
+            <input type="number" id="Cp" name="Cp" min="32000" max="32546"><br><br>
+            
+            <label for="Correo">Correo:</label><br>
+            <input type="email" id="Correo" name="Correo" maxlength="60"required ><br><br>
+            
+            <label for="Cel">Celular:</label><br>
+            <input type="text" id="Cel" name="Cel" maxlength="60"required ><br><br>
+            
+            <h4>Curso:</h4>
+            <select name="Curso">
+                <option value="">-----</option>
+                <option value="materia">Introducci&oacute;n a Html5 CSS</option>
+                <option value="materia">Matem&aacute;ticas discretas</option>
+                <option value="materia">Tecnolog&iacute;as para el dise&ntilde;o</option>
+                <option value="materia">Programaci&oacute;n</option>
+                <option value="materia">Geometr&iacute;a 3d</option>
+            </select><br><br>
+
+            
+            
+            <h4>Turno</h4>
+        <div><input type="radio" name="Turno" value="Matutino" /><label>Matutino</label></div>
+        <div><input type="radio" name="Turno" value="Vespertino" /><label>Vespertino</label></div><br><br>
+
+            <button class="submit" type="submit">Enviar Registro</button>
+            </form>
+    </body>
+</html>
